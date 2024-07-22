@@ -482,3 +482,7 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+#MY DEFINED IGNORE MOVIES JSON SOURDCE FOLDER
+MoviesJsonSource/
+MovieStagingArea/

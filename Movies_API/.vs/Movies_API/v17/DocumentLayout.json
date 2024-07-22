@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\services\\moviespopulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:services\\moviespopulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\movies_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:movies_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\moviestagingarea\\moviestagingclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:moviestagingarea\\moviestagingclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\entities\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:entities\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:52:49.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoviesPopulator.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Services\\MoviesPopulator.cs",
+              "RelativeDocumentMoniker": "Services\\MoviesPopulator.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Services\\MoviesPopulator.cs",
+              "RelativeToolTip": "Services\\MoviesPopulator.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwB8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:35:46.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieStagingClass.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MovieStagingArea\\MovieStagingClass.cs",
+              "RelativeDocumentMoniker": "MovieStagingArea\\MovieStagingClass.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MovieStagingArea\\MovieStagingClass.cs",
+              "RelativeToolTip": "MovieStagingArea\\MovieStagingClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:27:32.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Movies_API",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Movies_API.csproj",
+              "RelativeDocumentMoniker": "Movies_API.csproj",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Movies_API.csproj",
+              "RelativeToolTip": "Movies_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-22T10:24:22.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cast.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Entities\\Cast.cs",
+              "RelativeDocumentMoniker": "Entities\\Cast.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Entities\\Cast.cs",
+              "RelativeToolTip": "Entities\\Cast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:19:39.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Entities\\Genre.cs",
+              "RelativeDocumentMoniker": "Entities\\Genre.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Entities\\Genre.cs",
+              "RelativeToolTip": "Entities\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:17:41.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Entities\\Movie.cs",
+              "RelativeToolTip": "Entities\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T09:37:44.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
