@@ -9,8 +9,8 @@ namespace Movies_API.Entities
         [Required]
         public string GenreName { get; set; }
 
-        public Movie Movie { get; set; }
-        [ForeignKey(nameof(Movie))]
+        // public Movie Movie { get; set; }
+        [ForeignKey (nameof(Movie))]
         public int MovieID { get; set; }
 
     }

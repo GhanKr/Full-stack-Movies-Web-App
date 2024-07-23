@@ -1,8 +1,11 @@
-﻿namespace Movies_API.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Movies_API.Entities
 {
     public class Movie
     {
-        public int? Id { get; set; }
+        public int Id { get; set; }
+        [Required]
         public string? Title { get; set; }
         public string? Description { get; set; }
         public string? ReleaseDate { get; set; }
