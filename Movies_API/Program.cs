@@ -6,12 +6,13 @@ using Movies_API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 var config = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
 
 builder.Services.AddDbContext<MovieDbContext>(options =>
                                             options.UseSqlServer(config["DbConnectionString"]));
 
-
+builder.Services.AddScoped<IMovieMethods, MovieMethodsSqlServer>();
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
