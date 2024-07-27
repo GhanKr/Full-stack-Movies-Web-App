@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Movies_API.Entities;
+using Movies_API.MongoDbMovieSource;
 using Movies_API.MovieDbContexts;
 using Movies_API.MovieStagingArea;
 using Movies_API.Services;
@@ -12,7 +13,10 @@ var config = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
 builder.Services.AddDbContext<MovieDbContext>(options =>
                                             options.UseSqlServer(config["DbConnectionString"]));
 
-builder.Services.AddScoped<IMovieMethods, MovieMethodsSqlServer>();
+builder.Services.AddScoped<MongoDbMovieContext>();
+
+builder.Services.AddScoped<IMovieMethods, MovieMethodsMongoDb>();
+
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
