@@ -23,5 +23,7 @@ namespace Movies_API.Model
 
         public List<string?> Genre { get; set; }
         public List<string?> Cast { get; set; }
+
+        public List<string?> Directors { get; set; }
     }
 }

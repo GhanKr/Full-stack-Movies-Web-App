@@ -10,7 +10,7 @@ namespace Movies_API.Services
         public MovieMethodsSqlServer(MovieDbContext DbContext) {
                 _dbContext = DbContext;
         }
-        public  IEnumerable<Movie> GetMovies()
+        public  IEnumerable<Movie> GetMovies(int pageNumber, int pageSize)
         {
             var movies =  _dbContext.Movies.Include(movie => movie.Genre).ToList();
 

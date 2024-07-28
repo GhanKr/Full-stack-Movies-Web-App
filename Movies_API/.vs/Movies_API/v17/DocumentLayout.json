@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\services\\moviemethodsmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:services\\moviemethodsmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\services\\moviemethodssqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:services\\moviemethodssqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\mongodbmoviesource\\entities\\moviemongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:mongodbmoviesource\\entities\\moviemongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -19,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:mongodbmoviesource\\mongodbmoviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\mongodbmoviesource\\entities\\moviemongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:mongodbmoviesource\\entities\\moviemongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\services\\imoviemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|solutionrelative:services\\imoviemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0460EDED-16A4-4905-93B9-62DFFB25CC21}|Movies_API.csproj|c:\\users\\ghanshyam\\desktop\\english_movies_ api\\movies_api\\model\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,63 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "MovieMongoDb.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MongoDbMovieSource\\Entities\\MovieMongoDb.cs",
+              "RelativeDocumentMoniker": "MongoDbMovieSource\\Entities\\MovieMongoDb.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MongoDbMovieSource\\Entities\\MovieMongoDb.cs",
+              "RelativeToolTip": "MongoDbMovieSource\\Entities\\MovieMongoDb.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAuwBYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:48:36.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MovieMethodsMongoDb.cs",
               "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Services\\MovieMethodsMongoDb.cs",
               "RelativeDocumentMoniker": "Services\\MovieMethodsMongoDb.cs",
               "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Services\\MovieMethodsMongoDb.cs",
               "RelativeToolTip": "Services\\MovieMethodsMongoDb.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwDYAAAAMAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAwwFQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T04:39:39.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MongoDbMovieContext.cs",
-              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MongoDbMovieSource\\MongoDbMovieContext.cs",
-              "RelativeDocumentMoniker": "MongoDbMovieSource\\MongoDbMovieContext.cs",
-              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MongoDbMovieSource\\MongoDbMovieContext.cs",
-              "RelativeToolTip": "MongoDbMovieSource\\MongoDbMovieContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA9wAgAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T04:18:22.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "Controllers\\MovieController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T23:47:44.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T10:52:49.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -107,28 +89,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MovieMongoDb.cs",
-              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MongoDbMovieSource\\Entities\\MovieMongoDb.cs",
-              "RelativeDocumentMoniker": "MongoDbMovieSource\\Entities\\MovieMongoDb.cs",
-              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MongoDbMovieSource\\Entities\\MovieMongoDb.cs",
-              "RelativeToolTip": "MongoDbMovieSource\\Entities\\MovieMongoDb.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAywDMAAAAVAAAA",
+              "DocumentIndex": 3,
+              "Title": "MovieMethodsSqlServer.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Services\\MovieMethodsSqlServer.cs",
+              "RelativeDocumentMoniker": "Services\\MovieMethodsSqlServer.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Services\\MovieMethodsSqlServer.cs",
+              "RelativeToolTip": "Services\\MovieMethodsSqlServer.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:48:36.265Z",
+              "WhenOpened": "2024-07-28T05:34:57.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwBoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:52:49.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwDgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T23:47:44.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "MongoDbMovieContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MongoDbMovieSource\\MongoDbMovieContext.cs",
+              "RelativeDocumentMoniker": "MongoDbMovieSource\\MongoDbMovieContext.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\MongoDbMovieSource\\MongoDbMovieContext.cs",
+              "RelativeToolTip": "MongoDbMovieSource\\MongoDbMovieContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T04:18:22.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Model\\Movie.cs",
               "RelativeDocumentMoniker": "Model\\Movie.cs",
               "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Model\\Movie.cs",
               "RelativeToolTip": "Model\\Movie.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBcAAAAwAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwBsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T22:21:42.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMovieMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Services\\IMovieMethods.cs",
+              "RelativeDocumentMoniker": "Services\\IMovieMethods.cs",
+              "ToolTip": "C:\\Users\\Ghanshyam\\Desktop\\English_Movies_ Api\\Movies_API\\Services\\IMovieMethods.cs",
+              "RelativeToolTip": "Services\\IMovieMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T05:34:27.764Z",
               "EditorCaption": ""
             }
           ]

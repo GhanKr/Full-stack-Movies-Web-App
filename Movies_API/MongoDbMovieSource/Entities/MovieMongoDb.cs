@@ -17,7 +17,7 @@ namespace Movies_API.MongoDbMovieSource.Entities
         [BsonElement("status")]
         public string? Status { get; set; }
         [BsonElement("release_date")]
-        public string? ReleaseDate {  get; set; }
+        public DateTime ReleaseDate {  get; set; }
 
         [BsonElement("revenue")]
         public int Revenue { get; set; }
@@ -50,7 +50,7 @@ namespace Movies_API.MongoDbMovieSource.Entities
         [BsonElement("cast")]
         public List<string?> Cast {  get; set; }
         [BsonElement("director")]
-        public string? Directors { get; set; }
+        public List<string?> Directors { get; set; }
         [BsonElement("director_of_photography")]
         public string? DirectorofPhotography {  get; set; }
         [BsonElement("writers")]

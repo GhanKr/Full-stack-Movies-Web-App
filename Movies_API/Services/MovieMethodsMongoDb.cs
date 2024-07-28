@@ -1,4 +1,5 @@
 ﻿using DnsClient.Protocol;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using Movies_API.Model;
@@ -15,49 +16,36 @@ namespace Movies_API.Services
          _mongoDbContext = MovieContext;
         }
 
-        public IEnumerable<Movie> GetMovies()
-        {
+       
+
+        public IEnumerable<Movie> GetMovies(int pageNumber=1,int pageSize=10) {
             var mongoFilter = Builders<MovieMongoDb>.Filter.Empty;
-            var document = _mongoDbContext.MongoMovieCollection.Find(mongoFilter).ToList();
+            var document = _mongoDbContext.MongoMovieCollection.Find(mongoFilter).Sort("release_date")
+                .Skip((pageNumber - 1) * pageSize)
+                .Limit(pageSize)
+                .ToList();
+            List<Movie> moviesResult = populateMovieList(document);
 
-            List<Movie> moviesResult = new List<Movie>();
-            foreach (var movie in document)
-            {
-                
-
-
-                moviesResult.Add(new Movie()
-                {
-                    Title = movie.Title,
-                    Cast = movie.Cast,
-                    Genre = movie.Genre,
-                    Budget = movie.Budget,
-                    Description = movie.Description,
-                    Popularity = movie.Popularity,
-                    ReleaseDate = movie.ReleaseDate,
-                    Revenue = movie.Revenue,
-                    RunTime = movie.RunTime,
-                    PosterUrl = movie.PosterUrl,
-                    VoteAverage = movie.VoteAverage,
-                    VoteCount = movie.VoteCount
-
-
-                });
-            }
+            
             return moviesResult;
         }
-
         public IEnumerable<Movie> GetMoviesByGenre(string? Genre)
         {
 
            
             var mongoFilter = Builders<MovieMongoDb>.Filter.All("genres",new[] { Genre });
             var document = _mongoDbContext.MongoMovieCollection.Find(mongoFilter).ToList();
+            List<Movie> moviesResult = populateMovieList(document);
+          
+            return moviesResult;
+        }
 
-            List<Movie> moviesResult = new List<Movie>(); 
+        private List<Movie> populateMovieList(List<MovieMongoDb> document)
+        {
+            List<Movie> moviesResult = new List<Movie>();
             foreach (var movie in document)
             {
-                
+
 
 
                 moviesResult.Add(new Movie()
@@ -68,17 +56,18 @@ namespace Movies_API.Services
                     Budget = movie.Budget,
                     Description = movie.Description,
                     Popularity = movie.Popularity,
-                    ReleaseDate = movie.ReleaseDate,
+                    ReleaseDate = movie.ReleaseDate.ToString("dd/MM/yy"),
                     Revenue = movie.Revenue,
                     RunTime = movie.RunTime,
                     PosterUrl = movie.PosterUrl,
                     VoteAverage = movie.VoteAverage,
-                    VoteCount = movie.VoteCount
+                    VoteCount = movie.VoteCount,
+                    Directors = movie.Directors,
 
 
                 });
             }
-            return moviesResult;
+            return moviesResult ;
         }
 
         public IEnumerable<Movie> GetMoviesByTitle(string? Title)
@@ -86,36 +75,26 @@ namespace Movies_API.Services
             var mongoFilter = Builders<MovieMongoDb>.Filter.Eq("title", Title);
             var document = _mongoDbContext.MongoMovieCollection.Find(mongoFilter).ToList();
             
-            List<Movie> moviesResult = new List<Movie>();
-            foreach(var movie in document)
-            {
-                
+          
+            List<Movie> moviesResult = populateMovieList(document);
 
-
-                moviesResult.Add(new Movie()
-                {
-                    Title = movie.Title,
-                     Cast = movie.Cast,
-                     Genre = movie.Genre,
-                     Budget = movie.Budget,
-                      Description = movie.Description,
-                       Popularity = movie.Popularity,
-                        ReleaseDate = movie.ReleaseDate,
-                         Revenue    = movie.Revenue,
-                          RunTime   = movie.RunTime,
-                           PosterUrl = movie.PosterUrl,
-                            VoteAverage = movie.VoteAverage,
-                            VoteCount = movie.VoteCount
-
-                     
-                });
-            }
+            
             return moviesResult;
         }
 
         public IEnumerable<Movie> GetMoviesByYear(int year)
         {
-            throw new NotImplementedException();
+            DateTime fromDate = new DateTime(year, 01, 01);
+            DateTime toDate = new DateTime(year, 12, 31);
+            var mongoFilter = Builders<MovieMongoDb>.Filter.Gte("release_date", fromDate) &
+                              Builders<MovieMongoDb>.Filter.Lte("release_date", toDate);
+
+            var document = _mongoDbContext.MongoMovieCollection.Find(mongoFilter).ToList();
+            List<Movie> moviesResult = populateMovieList(document);
+
+            return moviesResult;
         }
+           
+        
     }
 }
