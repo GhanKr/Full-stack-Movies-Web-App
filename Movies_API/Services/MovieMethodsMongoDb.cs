@@ -20,14 +20,15 @@ namespace Movies_API.Services
 
         public IEnumerable<Movie> GetMovies(int pageNumber=1,int pageSize=10) {
             var mongoFilter = Builders<MovieMongoDb>.Filter.Empty;
-            var document = _mongoDbContext.MongoMovieCollection.Find(mongoFilter).Sort("release_date")
+            var document = _mongoDbContext.MongoMovieCollection.Find(mongoFilter)
+                .SortByDescending(movie => movie.ReleaseDate)
                 .Skip((pageNumber - 1) * pageSize)
                 .Limit(pageSize)
                 .ToList();
             List<Movie> moviesResult = populateMovieList(document);
 
             
-            return moviesResult;
+            return moviesResult.Where(movie => DateTime.Parse(movie.ReleaseDate) <= DateTime.Now);
         }
         public IEnumerable<Movie> GetMoviesByGenre(string? Genre)
         {

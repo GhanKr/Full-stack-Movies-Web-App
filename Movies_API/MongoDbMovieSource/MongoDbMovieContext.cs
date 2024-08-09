@@ -1,4 +1,6 @@
-﻿using MongoDB.Driver;
+﻿using Microsoft.Extensions.Options;
+using MongoDB.Driver;
+using Movies_API.ConfigurationBindingClasses;
 using Movies_API.MongoDbMovieSource.Entities;
 
 namespace Movies_API.MongoDbMovieSource
@@ -11,15 +13,13 @@ namespace Movies_API.MongoDbMovieSource
         public IMongoDatabase Database { get; set; }
         public IMongoCollection<MovieMongoDb> MongoMovieCollection { get; set; }
 
-        public MongoDbMovieContext()
+        public MongoDbMovieContext(IOptionsMonitor<DatabaseConfiguration> options)
         {
             
-            Client = new MongoClient( );
-            IConfigurationRoot configuration = new ConfigurationBuilder()
-            .AddJsonFile("appsettings.json")
-            .Build();
-            Database = Client.GetDatabase(configuration.GetSection("MongoDbSourceConfiguration")["database"]);
-            MongoMovieCollection = Database.GetCollection<MovieMongoDb>(configuration.GetSection("MongoDbSourceConfiguration")["collection"]);
+            DatabaseConfiguration MongoDbConfiguration = options.Get("MongoDb");
+            Client = new MongoClient(MongoDbConfiguration.ConnectionString);
+            Database = Client.GetDatabase(MongoDbConfiguration.Database);
+            MongoMovieCollection = Database.GetCollection<MovieMongoDb>(MongoDbConfiguration.Collection);
 
         }
       

@@ -6,7 +6,7 @@ using Movies_API.Services;
 namespace Movies_API.Controllers
 {
     [ApiController]
-    [Route("/api/[Controller]")]
+    [Route("/api/movie")]
     public class MovieController : ControllerBase
     {
         private IMovieMethods _iMovieMethods;
