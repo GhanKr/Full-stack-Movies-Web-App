@@ -3,7 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Movies_API.MovieDbContexts;
+using Movies_API.MovieRepository.SqlServerRepository;
+
 
 #nullable disable
 

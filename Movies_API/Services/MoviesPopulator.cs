@@ -1,4 +1,4 @@
-﻿using Movies_API.Entities;
+﻿using Movies_API.MovieRepository.SqlServerRepository.Entities;
 using Movies_API.MovieStagingArea;
 using System.Reflection;
 using System.Text.Json;

@@ -1,4 +1,4 @@
-﻿using Movies_API.Entities;
+﻿ 
 using System.ComponentModel.DataAnnotations;
 
 namespace Movies_API.Model
@@ -15,8 +15,8 @@ namespace Movies_API.Model
         public int VoteCount { get; set; }
 
         public int RunTime { get; set; }
-        public int Revenue { get; set; }
-        public int Budget { get; set; }
+        public long Revenue { get; set; }
+        public long Budget { get; set; }
         public double Popularity { get; set; }
 
         public string? PosterUrl { get; set; }

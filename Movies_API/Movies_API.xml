@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Movies_API</name>
+    </assembly>
+    <members>
+        <member name="M:Movies_API.Controllers.MovieController.MoviesByTitle(System.String)">
+            <summary>
+            Get movies by title of the movies, it will return all movies containing that title part
+            </summary>
+            <param name="Title">The title of the movie</param>
+            <returns>return ActionResult of the movie</returns>
+        </member>
+        <member name="M:Movies_API.Controllers.MovieController.Get(Movies_API.Model.MovieFromQuery)">
+            <summary>
+             Get All movies or You can query or sort by title,genre,year and limit and offset the result returned.
+            </summary>
+            <param name="movieFromQuery"> </param>
+            <returns>Returns the movies</returns>
+        </member>
+        <member name="M:Movies_API.Controllers.MovieController.MoviesByGenres(System.String)">
+            <summary>
+            Get movies by all types of Genres, please input first letter as capital
+            </summary>
+            <param name="Genres">The genre for the movies</param>
+            <returns></returns>
+        </member>
+        <member name="M:Movies_API.Controllers.MovieController.MoviesByYear(System.Int32)">
+            <summary>
+            Get all movies for a particular year
+            </summary>
+            <param name="year">Year</param>
+            <returns></returns>
+        </member>
+        <member name="P:Movies_API.Model.MovieFromQuery.title">
+            <summary>
+            query by title <br/>
+            example: movie?title=MrBean
+            </summary>
+        </member>
+        <member name="P:Movies_API.Model.MovieFromQuery.genre">
+            <summary>
+            query by Genre availabe, can query by multiple genres at once <br/>
+            example: movie?genre=Horror,Comedy <br/>
+            it will return all the movies with either Horror or Comedy genre <br/>
+            Caution: First letter of every Genre should be capital
+            </summary>
+        </member>
+        <member name="P:Movies_API.Model.MovieFromQuery.year">
+            <summary>
+            query the movies by year released <br/>
+            Example: movie?year=2021  
+            Caution: only one year can be queried at once
+            </summary>
+        </member>
+        <member name="P:Movies_API.Model.MovieFromQuery.yearGte">
+            <summary>
+            query all movies which are greater than or equal to the year <br/>
+            example: movies?yearGte=2021
+            </summary>
+        </member>
+        <member name="P:Movies_API.Model.MovieFromQuery.yearLte">
+            <summary>
+            query all movies which are equal to and less than the year <br/>
+            Example : movies?yearLte=2021
+            </summary>
+        </member>
+        <member name="P:Movies_API.Model.MovieFromQuery.sortAsc">
+            <summary>
+            sort the movies returned in ascending order <br/>
+            support multiple sorting by title,year,genre <br/>
+            Caution:Order given is mattered, ex: sort by title,year is different than sort by year,title <br/>
+            Example: movie?sortAsc=year,title <br/>
+            it will first sort by year and then by title
+            </summary>
+        </member>
+        <member name="P:Movies_API.Model.MovieFromQuery.sortDesc">
+            <summary>
+            sort the movies returned in descending order, <br/>
+            support multiple sorting by title,year,genre <br/>
+            Caution:Order given is mattered, ex: sort by title,year is different than sort by year,title <br/>
+            Example: movie?sortDesc=year,title <br/>
+            it will first sort by year and then by title
+            </summary>
+        </member>
+        <member name="P:Movies_API.Model.MovieFromQuery.limit">
+            <summary>
+            limit the number or movies returned <br/>
+            Example: movies?=limit =50 <br/>
+            it will only return 50 movies
+            </summary>
+        </member>
+        <member name="P:Movies_API.Model.MovieFromQuery.offset">
+            <summary>
+            offest the result <br/>
+            Example: movies?offset=50 <br/>
+            it will offset by 50 pages and start returning after result
+            </summary>
+        </member>
+    </members>
+</doc>

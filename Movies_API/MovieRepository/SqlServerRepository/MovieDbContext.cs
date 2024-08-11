@@ -1,18 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure.Internal;
-using Movies_API.Entities;
+using Movies_API.MovieRepository.SqlServerRepository.Entities;
 using Movies_API.Services;
 
-namespace Movies_API.MovieDbContexts
+namespace Movies_API.MovieRepository.SqlServerRepository
 {
-    public class MovieDbContext:DbContext
+    public class MovieDbContext : DbContext
     {
 
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Cast> Casts { get; set; }
 
-        public MovieDbContext (DbContextOptions<MovieDbContext> options) : base(options)
+        public MovieDbContext(DbContextOptions<MovieDbContext> options) : base(options)
         {
 
         }

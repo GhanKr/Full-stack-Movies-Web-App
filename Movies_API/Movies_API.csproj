@@ -5,6 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>29f2ca7c-3e0b-4f81-baa0-84ca6b8efcdb</UserSecretsId>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>Movies_API.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

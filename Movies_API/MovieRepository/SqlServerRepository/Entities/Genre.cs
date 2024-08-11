@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Movies_API.Entities
+namespace Movies_API.MovieRepository.SqlServerRepository.Entities
 {
     public class Genre
     {
@@ -10,7 +10,7 @@ namespace Movies_API.Entities
         public string GenreName { get; set; }
 
         // public Movie Movie { get; set; }
-        [ForeignKey (nameof(Movie))]
+        [ForeignKey(nameof(Movie))]
         public int MovieID { get; set; }
 
     }

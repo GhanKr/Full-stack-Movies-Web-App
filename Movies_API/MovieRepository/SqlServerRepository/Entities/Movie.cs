@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Movies_API.Entities
+namespace Movies_API.MovieRepository.SqlServerRepository.Entities
 {
     public class Movie
     {
@@ -10,7 +10,7 @@ namespace Movies_API.Entities
         public string? Description { get; set; }
         public string? ReleaseDate { get; set; }
         public float VoteAverage { get; set; }
-        public int VoteCount { get; set;}
+        public int VoteCount { get; set; }
 
         public int RunTime { get; set; }
         public int Revenue { get; set; }

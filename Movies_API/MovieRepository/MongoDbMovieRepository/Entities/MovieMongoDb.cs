@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Movies_API.MongoDbMovieSource.Entities
+namespace Movies_API.MovieRepository.MongoDbMovieRepository.Entities
 {
     public class MovieMongoDb
     {
@@ -11,28 +11,28 @@ namespace Movies_API.MongoDbMovieSource.Entities
         [BsonElement("title")]
         public string? Title { get; set; }
         [BsonElement("vote_average")]
-        public double  VoteAverage { get; set; }
+        public double VoteAverage { get; set; }
         [BsonElement("vote_count")]
-        public int VoteCount {  get; set; }
+        public int VoteCount { get; set; }
         [BsonElement("status")]
         public string? Status { get; set; }
         [BsonElement("release_date")]
-        public DateTime ReleaseDate {  get; set; }
+        public DateTime ReleaseDate { get; set; }
 
         [BsonElement("revenue")]
-        public int Revenue { get; set; }
+        public long Revenue { get; set; }
 
         [BsonElement("runtime")]
         public int RunTime { get; set; }
 
         [BsonElement("budget")]
-        public int Budget { get; set; }
+        public long Budget { get; set; }
         [BsonElement("imdb_id")]
-        public string? ImdbId {  get; set; }
+        public string? ImdbId { get; set; }
         [BsonElement("original_language")]
         public string? OriginalLanguage { get; set; }
         [BsonElement("original_title")]
-        public string? Original_Title {  get; set; }
+        public string? Original_Title { get; set; }
         [BsonElement("overview")]
         public string? Description { get; set; }
         [BsonElement("popularity")]
@@ -46,17 +46,17 @@ namespace Movies_API.MongoDbMovieSource.Entities
         [BsonElement("production_countries")]
         public string? ProductionCountries { get; set; }
         [BsonElement("spoken_languages")]
-        public string? SpokenLanguages {  get; set; }
+        public string? SpokenLanguages { get; set; }
         [BsonElement("cast")]
-        public List<string?> Cast {  get; set; }
+        public List<string?> Cast { get; set; }
         [BsonElement("director")]
         public List<string?> Directors { get; set; }
         [BsonElement("director_of_photography")]
-        public string? DirectorofPhotography {  get; set; }
+        public string? DirectorofPhotography { get; set; }
         [BsonElement("writers")]
-        public string? Writers {  get; set; }
+        public string? Writers { get; set; }
         [BsonElement("producers")]
-        public string? Producers {  get; set; }
+        public string? Producers { get; set; }
         [BsonElement("music_composer")]
         public string? MusicComposer { get; set; }
         [BsonElement("adult")]
@@ -68,7 +68,7 @@ namespace Movies_API.MongoDbMovieSource.Entities
         [BsonElement("poster_path")]
         public string? PosterUrl { get; set; }
         [BsonElement("keywords")]
-        public string? Keywords{ get; set; }                                             
-                 
+        public string? Keywords { get; set; }
+
     }
 }

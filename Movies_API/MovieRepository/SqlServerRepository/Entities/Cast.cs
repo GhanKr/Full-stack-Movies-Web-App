@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Movies_API.Entities
+namespace Movies_API.MovieRepository.SqlServerRepository.Entities
 {
     public class Cast
     {
